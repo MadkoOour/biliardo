@@ -1,0 +1,19 @@
+/* imports */
+@import "bootstrap/dist/css/bootstrap.css";
+
+
+/* for all */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url("./Assets/Backgound.png");
+  background-repeat:no-repeat ;
+}
+
+.borderx{
+  border:2px red solid;
+}
