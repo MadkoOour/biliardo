@@ -14,6 +14,10 @@ body{
   background-repeat:no-repeat ;
 }
 
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
 .borderx{
   border:2px red solid;
 }

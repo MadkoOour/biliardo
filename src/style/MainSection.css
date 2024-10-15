@@ -1,37 +1,53 @@
 .main-section-container {
-    background-image: url("../Assets/Balls Pattern.png"),
-      url("../Assets/Main Header Fabric Layout.png"),
-      url("../Assets/Main Header Pool Layout.png"),
-      url("../Assets/Main Header BG.png");
-    background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center;
-    position: relative;
-    top: 0;
-    height: 120vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .main-section-container .headings-container {
+  background-image: url("../Assets/Balls Pattern.png"),
+    url("../Assets/Main Header Fabric Layout.png"),
+    url("../Assets/Main Header Fabric Layout.png"),
+    url("../Assets/Main Header Pool Layout.png"),
+    url("../Assets/Header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: 120vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section-container .headings-container {
+  position: relative;
+  align-self: center;
+
+  h3 {
     color: white;
-    text-align: left;
   }
-  
-  .main-section-container .images-container {
-    position: relative;
-  }
-  
-  .images-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .images-container img:nth-child(2) {
-    z-index: 1;
-  }
-  
+}
+
+.main-section-container .images-container img {
+  position: absolute;
+  top: -20%;
+  left: -25%;
+  max-width: 100%;
+}
+
+.images-container img:nth-child(2) {
+  left: 25%;
+  top: -33%;
+  z-index: 1;
+}
+
+.main-section-container .images-container {
+  position: relative;
+}
+
+.main-section-container .images-container img {
+  position: absolute;
+  top: -20%;
+  left: -25%;
+  max-width: 100%;
+}
+
+.images-container img:nth-child(2) {
+  left: 25%;
+  top: -33%;
+  z-index: 1;
+}

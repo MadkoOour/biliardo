@@ -5,7 +5,7 @@
   display: flex ;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent ;
+  background-color: #00000090 ;
   padding: 3% 5% !important;
 }
 
@@ -14,8 +14,17 @@
 }
 
 .navbar .language-selection {
-  background-color: #f0d465;
-  color: #ffffff;
+  background-image: url("../Assets/Language-Box.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.15rem;
+}
+.navbar .language-selection img:nth-child(2) {
+  margin-bottom: 0.25rem;
 }
 
 .navbar .logo img {
