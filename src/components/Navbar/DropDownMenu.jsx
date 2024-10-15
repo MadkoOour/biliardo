@@ -1,71 +1,126 @@
 import { NavLink } from "react-router-dom";
+import "../../style/Navbar.css";
 
 const DropdownMenu = () => {
   return (
-    <ul className="sf-menu">
-      <li className={`menu-item-has-children two-columns current-menu-item`}>
+    <ul className="navbar-menu">
+      {/* Main Menu Items */}
+      <li className="menu-item">
         <NavLink
           to={"/"}
-          className={({ isActive }) => (isActive ? "sf-with-ul" : "")}
+          className={({ isActive }) => (isActive ? "active" : "")}
           end
         >
-          <span>{"Home"}</span>
+          {"الرئيسية"}
         </NavLink>
       </li>
-      <li className={`menu-item-has-children`}>
+
+      {/* Dropdown for "عن البطولة" */}
+      <li className="menu-item menu-item-has-children">
         <NavLink
-          to={"/about-us"}
-          className={({ isActive }) => (isActive ? "sf-with-ul" : "")}
+          to={"/about"}
+          className={({ isActive }) => (isActive ? "active" : "")}
           end
         >
-          <span>{"About us"}</span>
-        </NavLink>
-      </li>
-      <li className={`menu-item-has-children`}>
-        <NavLink
-          to={"/brands"}
-          className={({ isActive }) => (isActive ? "sf-with-ul" : "")}
-          end
-        >
-          <span>{"Partners"}</span>
-        </NavLink>
-      </li>
-      <li className={`menu-item-has-children`}>
-        <NavLink
-          to={"/projects"}
-          className={({ isActive }) => (isActive ? "sf-with-ul" : "")}
-          end
-        >
-          <span>{"Projects"}</span>
+          {"عن البطولة"}
         </NavLink>
         <ul className="sub-menu">
-          <li>
-            <NavLink to={"/case-studies"}>
-              <span>{"Case Studies"}</span>
-            </NavLink>
+          <li className="">
+            <NavLink to={"/aboutTour"}>{"عن البطولة"}</NavLink>
           </li>
           <li>
-            <NavLink to={"/projects"}>
-              <span>{"Reference List"}</span>
-            </NavLink>
+            <NavLink to={"/visas"}>{"التأشيرات"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/players"}>{"اللاعبين"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/event-location"}>{"موقع الحدث"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/live"}>{"مباشر"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/tickets"}>{"التذاكر"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/organizers"}>{"المنظمين"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/partners"}>{"الشركاء"}</NavLink>
           </li>
         </ul>
       </li>
-      <li>
-        <NavLink to={"/retail"}
-          className={({ isActive }) => (isActive ? "sf-with-ul" : "")}
+
+      {/* Dropdown for "الحياة في جدة" */}
+      <li className="menu-item menu-item-has-children">
+        <NavLink
+          to={"/jeddah-life"}
+          className={({ isActive }) => (isActive ? "active" : "")}
           end
         >
-          <span>{"Retail"}</span>
+          {"الحياة في جدة"}
+        </NavLink>
+        <ul className="sub-menu">
+          <li>
+            <NavLink to={"/weather"}>{"الطقس"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/markets"}>{"الأسواق"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/entertainment"}>{"الترفية"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/jeddah-airport"}>{"مطار جدة"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/hotels"}>{"الفنادق"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/transportation"}>{"التنقلات"}</NavLink>
+          </li>
+        </ul>
+      </li>
+
+      {/* "المركز الإعلامي" without a dropdown */}
+      <li className="menu-item">
+        <NavLink
+          to={"/mediaCenter"}
+          className={({ isActive }) => (isActive ? "active" : "")}
+          end
+        >
+          {"المركز الإعلامي"}
         </NavLink>
       </li>
-      <li className={`menu-item-has-children`}>
+
+      {/* Dropdown for "التحديات" */}
+      <li className="menu-item menu-item-has-children">
         <NavLink
-          to={"/contact"}
-          className={({ isActive }) => (isActive ? "sf-with-ul" : "")}
+          to={"/matches"}
+          className={({ isActive }) => (isActive ? "active" : "")}
           end
         >
-          <span>{"Contact us"}</span>
+          {"التحديات"}
+        </NavLink>
+        <ul className="sub-menu">
+          <li>
+            <NavLink to={"/bliarod"}>{"بلياردو"}</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/snoker"}>{"سنوكر"}</NavLink>
+          </li>
+        </ul>
+      </li>
+
+      {/*Contact Us */}
+      <li className="menu-item">
+        <NavLink
+          to={"/contact"}
+          className={({ isActive }) => (isActive ? "active" : "")}
+          end
+        >
+          {"تواصل معنا"}
         </NavLink>
       </li>
     </ul>

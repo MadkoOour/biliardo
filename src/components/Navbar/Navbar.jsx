@@ -1,12 +1,16 @@
-import DropdownMenu from "./DropDownMenu"
-
+import DropdownMenu from "./DropDownMenu";
+import '../../style/Navbar.css';
+import logo from './../../Assets/Logo.png'
 function Navbar() {
   return (
-    <div>
-      <h1>logo</h1>
+    <nav className="navbar">
+      <div className="logo">
+        <img src={logo} />
+      </div>
       <DropdownMenu />
-    </div>
-  )
+      <button className="btn language-selection">En</button>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
