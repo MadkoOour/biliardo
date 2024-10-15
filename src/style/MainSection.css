@@ -3,7 +3,7 @@
     url("../Assets/Main Header Fabric Layout.png"),
     url("../Assets/Main Header Fabric Layout.png"),
     url("../Assets/Main Header Pool Layout.png"),
-    url("../Assets/Header.png");
+    url("../Assets/Main Header BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -37,6 +37,7 @@
 
 .main-section-container .images-container {
   position: relative;
+  max-width: 50%;
 }
 
 .main-section-container .images-container img {

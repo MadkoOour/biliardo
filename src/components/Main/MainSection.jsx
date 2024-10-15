@@ -5,11 +5,11 @@ import StickImage from "../../Assets/Cue.png";
 function MainSection() {
   return (
     <div className="main-section-container row">
-      <div className="images-container col">
+      <div className="images-container col-6">
         <img src={BallsImage} />
         <img src={StickImage} />
       </div>
-      <div className="headings-container col">
+      <div className="headings-container col-6">
         <h3>Experience the best </h3>
         <h1>POOL GAME EVER</h1>
         <p>Taking Place in Jeddah, Saudi Arabia</p>
