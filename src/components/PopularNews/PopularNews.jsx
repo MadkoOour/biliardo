@@ -1,6 +1,7 @@
 import NewsImageFull from '../../Assets/News Image Full.png';
 import SideVideoCover from '../../Assets/Side Video Cover.png';
 import '../../style/PopularNews.css';
+import ParticipantsSlider from './ParticipantsSlider';
 
 function PopularNews() {
   return (
@@ -47,6 +48,9 @@ function PopularNews() {
           </div>
         </div>
       </div>
+
+      {/* Participants Slider Component */}
+      <ParticipantsSlider/>
     </div>
   );
 }
