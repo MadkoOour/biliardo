@@ -34,7 +34,6 @@ function PopularNews() {
             <div className="video-details">
               <h3>Video Title May Be Written Here.</h3>
               <p className="date">12-5-2024</p>
-              <button className="play-button">▶</button>
             </div>
           </div>
 
@@ -44,7 +43,6 @@ function PopularNews() {
             <div className="video-details">
               <h3>Video Title May Be Written Here.</h3>
               <p className="date">12-5-2024</p>
-              <button className="play-button">▶</button>
             </div>
           </div>
         </div>
