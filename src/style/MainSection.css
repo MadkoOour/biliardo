@@ -11,6 +11,7 @@
   height: 120vh;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .main-section-container .headings-container {

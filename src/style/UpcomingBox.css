@@ -1,0 +1,48 @@
+.upcoming-box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.upcoming-box-container .match-box {
+    background-color: rgba(255, 255, 255, 0.196); 
+    /* backdrop-filter: blur(20px); */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    gap: 1.5rem;
+    color: white;
+}
+
+.upcoming-box-container .match-box .player-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-box .player-info .PlayerPhoto {
+    height: 8rem;
+    aspect-ratio: 1;
+}
+
+.upcoming-box-container .match-box .match-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.upcoming-box-container .match-box .match-info img.VSPhoto {
+    width: 3rem;
+}
+
+.upcoming-box-container .match-box .match-info .match-time {
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.255);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}

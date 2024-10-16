@@ -1,0 +1,44 @@
+.live-box-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+
+.live-box-container .match-box{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1.5rem;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 3rem;
+}
+
+.live-box-container .match-box .player-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-box .player-info .PlayerPhoto{
+    height: 8rem;
+    aspect-ratio: 1;
+}
+
+.live-box-container .match-box .live-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    img.LivePhoto{
+        width: 8rem;
+    }
+    img.VSPhoto{
+        width: 3rem;
+    }
+}
