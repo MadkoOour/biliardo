@@ -1,8 +1,8 @@
 .game-intro-container {
     background-image: url("../Assets/Saudi Flag.png");
     background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: 0% 20% ;
+    background-size: 80%;
+    background-position: 0% 30% ;
     position: relative;
     overflow: hidden;
     z-index: 5;

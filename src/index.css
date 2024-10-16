@@ -12,6 +12,7 @@
 body{
   background-image: url("./Assets/Backgound.png");
   background-repeat:no-repeat ;
+  font-family: Arial, sans-serif;
 }
 
 .row {

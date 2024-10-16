@@ -5,7 +5,8 @@
 }
 
 .upcoming-box-container .match-box {
-    background-color: rgba(255, 255, 255, 0.196); 
+    background-color: rgba(255, 255, 255, 0.196);  
+    backdrop-filter: blur(10px);
     /* backdrop-filter: blur(20px); */
     display: flex;
     justify-content: space-between;
@@ -43,6 +44,7 @@
 .upcoming-box-container .match-box .match-info .match-time {
     font-size: 1.2rem;
     background-color: rgba(255, 255, 255, 0.255);
+    backdrop-filter: blur(10px);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
