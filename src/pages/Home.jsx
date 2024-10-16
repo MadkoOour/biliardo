@@ -1,3 +1,4 @@
+import AboutSection from "../components/About/AboutSection"
 import GameIntro from "../components/GameIntro/GameIntro"
 import MainSection from "../components/Main/MainSection"
 import Navbar from "../components/Navbar/Navbar"
@@ -12,6 +13,7 @@ function Home() {
         <GameIntro />
         <TopPlayers />
         <PopularNews />
+        <AboutSection />
     </div>
   )
 }

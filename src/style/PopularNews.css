@@ -21,7 +21,7 @@
     color: white;
 }
 
-.see-more {
+.popular-news-header .see-more {
     background-color: #E1A253;
     color: white;
     border: none;
@@ -32,7 +32,7 @@
     transition: 0.3s;
 }
 
-.see-more:hover {
+.popular-news-header .see-more:hover {
     background-color: #D08E3D;
 }
 
