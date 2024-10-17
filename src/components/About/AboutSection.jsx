@@ -6,7 +6,7 @@ import BallsPattern from "../../Assets/Balls Pattern 3.png";
 function AboutSection() {
   return (
     <div className="about-section-container row">
-      <div className="about-text col">
+      <div className="about-text col"  data-aos="fade-right">
         <h1>{"عن البطولة"}</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -16,7 +16,7 @@ function AboutSection() {
         </p>
         <button className="read-more">Read More</button>
       </div>
-      <div className="about-images col">
+      <div className="about-images col" data-aos="fade-left">
         <img src={BallsPattern} className="BallsPattern"/>
         <img src={AboutCircle} className="AboutCircle"/>
         <img src={BilliardsTable} className="BilliardsTable"/>

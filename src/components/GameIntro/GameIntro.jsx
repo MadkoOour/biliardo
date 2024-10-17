@@ -8,9 +8,9 @@ import LiveBox from "./LiveBox";
 import UpcomingBox from "./UpcomingBox";
 function GameIntro() {
   return (
-    <div className="game-intro-container">
+    <div className="game-intro-container" data-aos="fade">
       <div className="intro-container row">
-        <div className="intro-headings col">
+        <div className="intro-headings col" data-aos="zoom-in">
           <h1>
             لعبة
             <br />
@@ -23,10 +23,10 @@ function GameIntro() {
           </p>
         </div>
         <div className="intro-images col">
-          <img src={BiliPhoto} className="BiliPhoto" />
-          <img src={PhotoTriangle} className="PhotoTriangle" />
-          <img src={SmallTriangles} className="SmallTriangles" />
-          <img src={BallsPattern2} className="BallsPattern2" />
+          <img src={BiliPhoto} className="BiliPhoto" data-aos="fade-left" />
+          <img src={PhotoTriangle} className="PhotoTriangle" data-aos="fade-left"/>
+          <img src={SmallTriangles} className="SmallTriangles"  data-aos="fade-left" />
+          <img src={BallsPattern2} className="BallsPattern2" data-aos="fade-left" />
         </div>
       </div>
       <div className="matches-container">

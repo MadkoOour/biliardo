@@ -3,7 +3,7 @@ import '../../style/TopPlayers.css';
 
 function TopPlayers() {
   return (
-    <div className="top-players-container">
+    <div className="top-players-container" data-aos="fade">
       <div className="section-header">
         <h3>{'أفضل اللاعبين'}</h3>
         <button className="see-players-btn">{'جميع اللاعبين'}</button>

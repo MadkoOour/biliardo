@@ -6,10 +6,10 @@ function MainSection() {
   return (
     <div className="main-section-container row">
       <div className="images-container col-6">
-        <img src={BallsImage} />
-        <img src={StickImage} />
+        <img src={BallsImage} data-aos="fade-left" />
+        <img src={StickImage} data-aos="fade-up"/>
       </div>
-      <div className="headings-container col-6">
+      <div className="headings-container  col-6"  data-aos="zoom-in">
         <h3>{'اختبر أفضل تجربة'}</h3>
         <h1>{'.لعبة بلياردو على الإطلاق'}</h1>
         <p>{'تُقام في جدة، المملكة العربية السعودية'}</p>

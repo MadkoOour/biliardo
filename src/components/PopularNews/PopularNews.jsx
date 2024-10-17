@@ -5,7 +5,7 @@ import ParticipantsSlider from './ParticipantsSlider';
 
 function PopularNews() {
   return (
-    <div className="popular-news-container">
+    <div className="popular-news-container" data-aos="fade">
       {/* Header with title and button */}
       <div className="popular-news-header">
         <h1>Popular News</h1>
@@ -13,7 +13,7 @@ function PopularNews() {
       </div>
 
       {/* Main Content (Main News + Side Videos) */}
-      <div className="popular-news-content">
+      <div className="popular-news-content" data-aos="fade">
         {/* Main News Section */}
         <div className="main-news">
           <img src={NewsImageFull} alt="Main News" className="main-news-image" />

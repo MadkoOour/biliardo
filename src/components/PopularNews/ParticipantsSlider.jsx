@@ -24,7 +24,7 @@ function ParticipantsSlider() {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" data-aos="slide-right" >
       <h3>{"المشاركون"}</h3>
       <Carousel responsive={responsive}>
         {[1, 2, 3, 4, 5, 6].map((player, index) => (

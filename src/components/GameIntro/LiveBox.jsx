@@ -13,7 +13,7 @@ function LiveBox() {
   return (
     <>
       <h3 className="text-white mb-4" style={{textAlign:"right"}}>{"المباريات المباشرة"}</h3>
-      <div className="live-box-container row">
+      <div className="live-box-container row" data-aos="fade">
         {players.map((player, index) => (
           <div key={index} className="match-box col">
             <div className="player-info">
