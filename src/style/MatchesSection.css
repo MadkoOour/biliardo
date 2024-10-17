@@ -6,4 +6,6 @@
 .game-intro-container .matches-container h2{
     text-align: center;
     color: white;
+    font-weight: 700;
+    margin-bottom: 5rem;
 }

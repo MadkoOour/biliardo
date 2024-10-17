@@ -5,7 +5,7 @@ function TopPlayers() {
   return (
     <div className="top-players-container">
       <div className="section-header">
-        <h3>Top Players</h3>
+        <h3>{'أفضل اللاعبين'}</h3>
         <button className="see-players-btn">See All Players</button>
       </div>
 
@@ -13,10 +13,10 @@ function TopPlayers() {
         {[1, 2, 3].map((_, index) => (
           <div className="player-card" key={index}>
             <img src={TopPlayerPhoto} alt="Top Player" className="player-photo" />
-            <h3 className="player-name">Player Name</h3>
+            <h3 className="player-name">أسم اللاعب</h3>
             <div className="player-info">
-              <p>150 Points</p>
-              <p>5 Wins</p>
+              <p>150 نقطة</p>
+              <p>{'فوز 5'}</p>
             </div>
           </div>
         ))}

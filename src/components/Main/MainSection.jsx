@@ -10,10 +10,10 @@ function MainSection() {
         <img src={StickImage} />
       </div>
       <div className="headings-container col-6">
-        <h3>Experience the best </h3>
-        <h1>POOL GAME EVER</h1>
-        <p>Taking Place in Jeddah, Saudi Arabia</p>
-        <p>3-8 june 2024</p>
+        <h3>{'اختبر أفضل تجربة'}</h3>
+        <h1>{'.لعبة بلياردو على الإطلاق'}</h1>
+        <p>{'تُقام في جدة، المملكة العربية السعودية'}</p>
+        <p>{'3-8 '} {'يونيو'} {'2024'}</p>
       </div>
     </div>
   );

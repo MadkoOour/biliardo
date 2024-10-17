@@ -21,7 +21,7 @@ const upcomingMatches = [
 function UpcomingBox() {
   return (
     <>
-      <h3 className="text-white mb-4">Upcoming</h3>
+      <h3 className="text-white mb-4" style={{textAlign:"right"}}>{'المباريات القادمة'}</h3>
       <div className="upcoming-box-container row">
         {upcomingMatches.map((match, index) => (
           <div key={index} className="match-box col">

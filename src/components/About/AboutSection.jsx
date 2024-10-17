@@ -7,7 +7,7 @@ function AboutSection() {
   return (
     <div className="about-section-container row">
       <div className="about-text col">
-        <h1>About</h1>
+        <h1>{"عن البطولة"}</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

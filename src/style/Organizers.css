@@ -1,0 +1,15 @@
+.organizers-container{
+    padding: 5% 5%;
+}
+
+.organizers-container h3{
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: right;
+}
+
+.organizers-container img{
+    width: 100%;
+}

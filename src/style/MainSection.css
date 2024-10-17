@@ -17,9 +17,24 @@
 .main-section-container .headings-container {
   position: relative;
   align-self: center;
+  text-align: right;
+  padding-right: 5%;
 
   h3 {
     color: white;
+    font-size: 3rem;
+  }
+
+  h1{
+    color: #D08E3D;
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+
+  p{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
   }
 }
 

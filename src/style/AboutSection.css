@@ -4,6 +4,21 @@
     overflow: hidden;
 }
 
+.about-section-container .about-text {
+    text-align: right;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-end; 
+}
+
+.about-section-container .about-text h1,
+.about-section-container .about-text p,
+.about-section-container .about-text .read-more {
+    text-align: right;
+    margin-right: 0;
+}
+
 .about-section-container .about-text h1 {
     color: white;
     font-size: 3rem;
@@ -28,7 +43,6 @@
     cursor: pointer;
     font-size: 1rem;
     transition: 0.3s;
-
 }
 
 .about-section-container .about-text .read-more:hover {

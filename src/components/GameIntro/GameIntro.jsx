@@ -12,9 +12,15 @@ function GameIntro() {
       <div className="intro-container row">
         <div className="intro-headings col">
           <h1>
-            A GAME OF<br />SKILL AND<br />SPEED
+            لعبة
+            <br />
+            المهارة و السرعة
           </h1>
-          <p>Get Your chance to watch<br />These talnted Players</p>
+          <p>
+            احصل على فرصتك لمشاهدة
+            <br />
+            هؤلاء اللاعبين الموهوبين
+          </p>
         </div>
         <div className="intro-images col">
           <img src={BiliPhoto} className="BiliPhoto" />
@@ -24,7 +30,7 @@ function GameIntro() {
         </div>
       </div>
       <div className="matches-container">
-        <h2>Matches</h2>
+        <h2>{'المباريات'}</h2>
         <LiveBox />
         <UpcomingBox />
       </div>

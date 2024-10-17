@@ -25,7 +25,7 @@ function ParticipantsSlider() {
 
   return (
     <div className="slider-container">
-      <h3>Participants</h3>
+      <h3>{"المشاركون"}</h3>
       <Carousel responsive={responsive}>
         {[1, 2, 3, 4, 5, 6].map((player, index) => (
           <img key={index} src={ParticipantPhoto} alt={`Participant ${player}`}/>
