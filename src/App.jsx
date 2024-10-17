@@ -1,9 +1,11 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "./App.css";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import AllRoutes from "./router/AllRoutes";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
+import Footer from "./components/Footer/Footer"
+import Navbar from "./components/Navbar/Navbar"
+
 
 function App() {
   useEffect(() => {
@@ -15,10 +17,9 @@ function App() {
 
   return (
     <>
-      {/* Scroll to top */}
-      <ScrollToTop />
-
+      <Navbar />
       <AllRoutes />
+      <Footer />
     </>
   );
 }

@@ -6,20 +6,22 @@ import BallsPattern from "../../Assets/Balls Pattern 3.png";
 function AboutSection() {
   return (
     <div className="about-section-container row">
-      <div className="about-text col"  data-aos="fade-right">
+      <div className="about-text col" data-aos="fade-right">
         <h1>{"عن البطولة"}</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          بطولة العالم للبلياردو في جدة تعد واحدة من أهم الفعاليات الرياضية التي
+          تجمع بين أفضل لاعبي البلياردو من جميع أنحاء العالم. تقام البطولة في
+          أجواء مليئة بالحماس والتحدي، حيث يتنافس المشاركون على الفوز باللقب في
+          إحدى أجمل المدن السعودية. تعتبر هذه البطولة فرصة رائعة لعشاق اللعبة
+          لمتابعة المهارات الاستثنائية والأداء المذهل، بالإضافة إلى الاستمتاع
+          بالأجواء الرائعة التي تميز مدينة جدة.
         </p>
         <button className="read-more">Read More</button>
       </div>
       <div className="about-images col" data-aos="fade-left">
-        <img src={BallsPattern} className="BallsPattern"/>
-        <img src={AboutCircle} className="AboutCircle"/>
-        <img src={BilliardsTable} className="BilliardsTable"/>
+        <img src={BallsPattern} className="BallsPattern" />
+        <img src={AboutCircle} className="AboutCircle" />
+        <img src={BilliardsTable} className="BilliardsTable" />
       </div>
     </div>
   );

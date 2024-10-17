@@ -1,0 +1,85 @@
+.tickets-page {
+  margin: 12rem 0 9rem;
+  padding: 2rem;
+  background-color: #f7f7f7;
+  direction: rtl; /* Ensure right-to-left alignment */
+}
+
+.tickets-heading {
+  font-size: 2.5rem;
+  color: #3c633a;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.ticket-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  gap: 2rem; 
+}
+
+.ticket-card {
+  margin-bottom: 2rem;
+  width: 20%;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-type {
+  font-size: 1.8rem;
+  color: #3c633a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.ticket-price {
+  border: dotted 2px #E1A253;
+  font-size: 1.5rem;
+  color: #E1A253;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.ticket-details {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.ticket-details li {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  background-color: #3c633a;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.event-info {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.event-info p {
+  margin-bottom: 0.5rem;
+}
