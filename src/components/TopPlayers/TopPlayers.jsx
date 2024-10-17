@@ -6,7 +6,7 @@ function TopPlayers() {
     <div className="top-players-container">
       <div className="section-header">
         <h3>{'أفضل اللاعبين'}</h3>
-        <button className="see-players-btn">See All Players</button>
+        <button className="see-players-btn">{'جميع اللاعبين'}</button>
       </div>
 
       <div className="player-cards-container">

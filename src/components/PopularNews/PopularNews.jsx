@@ -9,7 +9,7 @@ function PopularNews() {
       {/* Header with title and button */}
       <div className="popular-news-header">
         <h1>Popular News</h1>
-        <button className="see-more">See More</button>
+        <button className="see-more">{'المزيد'}</button>
       </div>
 
       {/* Main Content (Main News + Side Videos) */}
@@ -18,11 +18,11 @@ function PopularNews() {
         <div className="main-news">
           <img src={NewsImageFull} alt="Main News" className="main-news-image" />
           <div className="news-details">
-            <h2>Headline May Be <br /> Written Here.</h2>
-            <p>Details Here Details Here Details Here Details Here Details <br/> Here Details Here</p>
+            <h2>بطولة العالم للبلياردو تنطلق قريباً</h2>
+            <p>استعدوا لمتابعة أروع منافسات البلياردو في العالم أمهر اللاعبين من مختلف الدول يتنافسون على اللقب</p>
             <div className='bottom-card-details'>
               <p className="date">12-5-2024</p>
-              <button className="read-more">Read More</button>
+              <button className="read-more">اقرأ المزيد</button>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function PopularNews() {
           <div className="video">
             <img src={SideVideoCover} alt="Video Cover" className="video-cover" />
             <div className="video-details">
-              <h3>Video Title May Be Written Here.</h3>
+              <h3>{'تجمع أبطال العالم '}</h3>
               <p className="date">12-5-2024</p>
             </div>
           </div>
@@ -42,7 +42,7 @@ function PopularNews() {
           <div className="video">
             <img src={SideVideoCover} alt="Video Cover" className="video-cover" />
             <div className="video-details">
-              <h3>Video Title May Be Written Here.</h3>
+              <h3>{'أقوى منافسات البلياردو'}</h3>
               <p className="date">12-5-2024</p>
             </div>
           </div>

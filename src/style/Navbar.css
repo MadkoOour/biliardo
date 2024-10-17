@@ -46,7 +46,7 @@
 .menu-item a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 500;
   padding: 0.3125rem 0.9375rem;
   transition: color 0.3s ease;
@@ -78,32 +78,53 @@
 }
 
 .sub-menu {
-  text-align: right;
   display: none;
   position: absolute;
-  background-color: #0b3b25;
   top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 0.5rem;
+  right: 0;
+  background-color: #0b3b25;
   list-style: none;
+  padding-left: 0;
+  padding-top: 0.5rem;
   box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  opacity: 0;
+  text-align: center;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  transform: translateY(-10px);
+  width: auto; /* Allow the sub-menu to adjust based on content */
+  min-width: 7rem; /* Optional: Set a minimum width to prevent too narrow menus */
 }
 
 .menu-item-has-children:hover .sub-menu {
   display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .sub-menu li {
-  padding: 0.5rem ;
+  width: 100%;
+  margin-bottom: 0.75rem;
 }
 
 .sub-menu li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 0.9rem;
+  display: block; 
+  transition: color 0.3s ease;
 }
 
 .sub-menu li a:hover {
   color: #f0d465;
+}
+
+.sub-menu li a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sub-menu li a:hover {
+  border-bottom-color: #f0d465;
 }
